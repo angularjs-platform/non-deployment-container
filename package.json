@@ -1,0 +1,70 @@
+{
+  "name": "@norn/non-deployment-container",
+  "version": "0.1.0",
+  "description": "NoN Frontend Package",
+  "main": "./src/app.module.ts",
+  "browser": "./src/app.module.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/norn/non-deployment-container.git"
+  },
+  "scripts": {
+    "install-typings": "typings install",
+
+    "clean": "non-build-manager clean",
+
+    "lint-ts": "non-build-manager lint:ts",
+    "lint-tests": "non-build-manager lint:tests",
+    "lint-scss": "non-build-manager lint:scss",
+    "lint": "non-build-manager lint",
+
+    "build": "non-build-manager build:prod",
+    "test": "non-build-manager test:prod",
+
+    "build-dev": "non-build-manager build:dev",
+    "test-dev": "non-build-manager test:dev",
+
+    "build-coverage": "non-build-manager build:coverage",
+    "test-coverage": "non-build-manager test:coverage",
+
+    "build-publish": "non-build-manager build:publish",
+    "test-publish": "non-build-manager test:publish",
+
+    "prestart": "npm install && npm run install-typings",
+    "start": "npm run clean && npm run build-dev && npm run serve",
+    "serve": "non-build-manager mock:server",
+
+    "watch": "non-build-manager build:watch",
+
+    "docs": "non-build-manager generate:docs",
+
+    "changelog": "non-build-manager generate:changelog"
+  },
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-ui-router": "0.3.0",
+    "angular-aria": "1.5.5",
+    "angular-animate": "1.5.5",
+    "angular-material": "1.0.8",
+    "jquery": "2.2.3",
+    "lodash": "4.11.2",
+
+    "@norn/non-framework": "0.1.0",
+    "@norn/non-theme-base": "0.1.0",
+    "@norn/non-theme-default": "0.1.0",
+    "@norn/non-ifu-login": "0.1.0"
+  },
+  "devDependencies": {
+    "typings": "0.7.12",
+    "@norn/non-build-manager": "0.1.0"
+  },
+  "config": {
+      "non": {
+        "mockServerConfig": {
+            "apimodules": [
+                "@norn/non-framework"
+            ]
+        }
+      }
+   }
+}
