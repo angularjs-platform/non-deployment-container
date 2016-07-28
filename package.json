@@ -2,8 +2,8 @@
   "name": "@norn/non-deployment-container",
   "version": "0.1.0",
   "description": "NoN Frontend Package",
-  "main": "./src/app.module.ts",
-  "browser": "./src/app.module.ts",
+  "main": "./src/app/app.module.ts",
+  "browser": "./src/app/app.module.ts",
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/norn/non-deployment-container.git"
@@ -52,19 +52,28 @@
     "@norn/non-framework": "0.1.0",
     "@norn/non-theme-base": "0.1.0",
     "@norn/non-theme-default": "0.1.0",
-    "@norn/non-ifu-login": "0.1.0"
+    "@norn/non-ifu-login": "0.1.0",
+    "@norn/non-ifu-organization": "0.1.0"
   },
   "devDependencies": {
     "typings": "0.7.12",
     "@norn/non-build-manager": "0.1.0"
   },
   "config": {
-      "non": {
-        "mockServerConfig": {
-            "apimodules": [
-                "@norn/non-framework"
-            ]
+    "non": {
+      "mockServerConfig": {
+        "apimodules": [
+          "@norn/non-framework",
+          "@norn/non-ifu-organization"
+        ]
+      },
+      "webpackConfig": {
+        "entry": {
+          "vendor": "/src/vendor-libs.ts",
+          "non": "/src/internal-libs.ts",
+          "main": "/src/container.module.ts"
         }
       }
-   }
+    }
+  }
 }
