@@ -1,3 +1,5 @@
+import {IConfigurationService} from '@norn/non-framework';
+
 const template: string = require('./main.tpl');
 
 export class UIRouterConfig {
@@ -14,8 +16,16 @@ export class UIRouterConfig {
                 template: template,
                 controller: 'MainController',
                 controllerAs: 'mainCtrl',
-                abstract: true
+                abstract: true,
+                resolve: {
+                    config: this.loadConfiguration
+                }
             });
     }
+
+    private loadConfiguration = (ConfigurationService: IConfigurationService): any => {
+        'ngInject';
+        return ConfigurationService.loadConfig();
+    };
 }
 
