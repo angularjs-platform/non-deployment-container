@@ -1,12 +1,9 @@
-export interface IAppController {
-    theme: string;
-}
-
 export class AppController {
 
     public theme: string;
 
     constructor() {
-        this.theme = 'non-theme-default';
+        // TODO:G Dynamic Themes are disabled because of Performance Reasons. Needs Work
+        // this.theme = 'non-theme-default';
     }
 }
