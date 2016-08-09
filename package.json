@@ -82,7 +82,13 @@
           "vendor": "/src/vendor-libs.ts",
           "non": "/src/internal-libs.ts",
           "main": "/src/container.module.ts"
-        }
+        },
+        "copyAssets": [
+            {
+                "from": "/src/index.css",
+                "to": "/index.css"
+            }
+        ]
       }
     }
   }
