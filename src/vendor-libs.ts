@@ -8,3 +8,6 @@ import 'angular-material';
 import 'angular-loading-bar';
 import 'angular-cookies';
 import 'angular-material-sidemenu';
+
+import 'perfect-scrollbar';
+import 'mobile-detect';
