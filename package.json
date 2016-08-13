@@ -52,6 +52,9 @@
     "angular-resource": "1.5.7",
     "angular-sanitize": "1.5.7",
     "angular-translate": "2.11.0",
+    "angular-translate-loader-partial": "2.11.0",
+    "angular-translate-storage-cookie": "2.11.0",
+    "angular-translate-storage-local": "2.11.0",
     "angular-loading-bar": "0.9.0",
     "angular-material-sidemenu": "1.0.2",
     "mobile-detect": "1.3.2",
@@ -74,7 +77,9 @@
       "mockServerConfig": {
         "apimodules": [
           "@norn/non-framework",
-          "@norn/non-ifu-organization"
+          "@norn/non-ifu-organization",
+          "@norn/non-ifu-login",
+          "@norn/non-ifu-main"
         ]
       },
       "webpackConfig": {
