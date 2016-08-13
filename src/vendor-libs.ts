@@ -8,6 +8,13 @@ import 'angular-material';
 import 'angular-loading-bar';
 import 'angular-cookies';
 import 'angular-material-sidemenu';
-
+import 'angular-messages';
+import 'angular-resource';
+import 'angular-sanitize';
+import 'angular-translate';
+import 'angular-translate-loader-partial';
+import 'angular-translate-storage-cookie';
+import 'angular-translate-storage-local';
 import 'perfect-scrollbar';
 import 'mobile-detect';
+
