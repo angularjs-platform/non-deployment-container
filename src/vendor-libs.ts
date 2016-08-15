@@ -19,3 +19,5 @@ import 'angular-ui-grid';
 import 'perfect-scrollbar';
 import 'mobile-detect';
 
+import 'api-check';
+import 'angular-formly';
