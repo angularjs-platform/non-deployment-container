@@ -15,6 +15,7 @@ import 'angular-translate';
 import 'angular-translate-loader-partial';
 import 'angular-translate-storage-cookie';
 import 'angular-translate-storage-local';
+import 'angular-ui-grid';
 import 'perfect-scrollbar';
 import 'mobile-detect';
 
