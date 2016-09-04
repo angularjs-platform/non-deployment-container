@@ -1,5 +1,6 @@
 // Theme
 import '@norn/non-theme-base';
+import '@norn/non-theme-custom';
 
 // Core
 import '@norn/non-framework';
