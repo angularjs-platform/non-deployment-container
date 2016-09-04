@@ -67,6 +67,7 @@
 
     "@norn/non-framework": "0.1.0",
     "@norn/non-theme-base": "0.1.0",
+    "@norn/non-theme-custom": "0.1.0",
     "@norn/non-ifu-main": "0.1.0",
     "@norn/non-ifu-login": "0.1.0",
     "@norn/non-ifu-home": "0.1.0",

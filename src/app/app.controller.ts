@@ -1,9 +1,12 @@
+import {IThemeService} from '@norn/non-framework';
+
 export class AppController {
 
     public theme: string;
 
-    constructor() {
-        // TODO:G Dynamic Themes are disabled because of Performance Reasons. Needs Work
-        // this.theme = 'non-theme-default';
+    constructor(private ThemeService: IThemeService) {
+        'ngInject';
+
+        this.theme = this.ThemeService.getTheme();
     }
 }
