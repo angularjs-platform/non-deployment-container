@@ -71,7 +71,8 @@
     "@norn/non-ifu-main": "0.1.0",
     "@norn/non-ifu-login": "0.1.0",
     "@norn/non-ifu-home": "0.1.0",
-    "@norn/non-ifu-organization": "0.1.0"
+    "@norn/non-ifu-organization": "0.1.0",
+    "@norn/non-ifu-ui-showcase": "0.1.0"
   },
   "devDependencies": {
     "typings": "0.7.12",
@@ -84,7 +85,8 @@
           "@norn/non-framework",
           "@norn/non-ifu-organization",
           "@norn/non-ifu-login",
-          "@norn/non-ifu-main"
+          "@norn/non-ifu-main",
+          "@norn/non-ifu-ui-showcase"
         ]
       },
       "webpackConfig": {

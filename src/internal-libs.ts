@@ -10,3 +10,4 @@ import '@norn/non-ifu-main';
 import '@norn/non-ifu-login';
 import '@norn/non-ifu-home';
 import '@norn/non-ifu-organization';
+import '@norn/non-ifu-ui-showcase';
