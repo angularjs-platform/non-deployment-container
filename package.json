@@ -38,7 +38,9 @@
 
     "docs": "non-build-manager generate:docs",
 
-    "changelog": "non-build-manager generate:changelog"
+    "changelog": "non-build-manager generate:changelog",
+
+    "extract": "non-build-manager extract:localization"
   },
   "dependencies": {
     "jquery": "3.1.0",
