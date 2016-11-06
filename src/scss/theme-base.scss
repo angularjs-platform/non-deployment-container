@@ -1,0 +1,20 @@
+@import '~angular-loading-bar/build/loading-bar.css';
+@import '~angular-material-sidemenu/dest/angular-material-sidemenu.css';
+@import '~perfect-scrollbar/dist/css/perfect-scrollbar.css';
+@import '~angular-ui-grid/ui-grid.css';
+@import '~angular-material/angular-material';
+
+html.non-theme-base {
+    @import '~@norn/non-theme-base/src/theme-base';
+
+    @import '~@norn/non-framework/src/framework';
+
+    @import '~@norn/non-shared-common/src/common';
+
+    @import '~@norn/non-ifu-login/src/login';
+    @import '~@norn/non-ifu-home/src/home';
+    @import '~@norn/non-ifu-ui-showcase/src/ui-showcase';
+
+    @import '~@norn/non-theme-base/src/theme-base-app-overrides';
+}
+

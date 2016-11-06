@@ -8,24 +8,38 @@ The package for the NoN Frontend Development
     cd ../non-framework
     npm link
 
-    cd ../non-ifus/non-ifu-login
+    cd ../non-shared/non-shared-common
     npm link @norn/non-framework
     npm link
 
-    cd ../non-ifu-main
+    cd ../non-shared-authentication-management
     npm link @norn/non-framework
+    npm link
+
+    cd ../non-shared-system-administration
+    npm link @norn/non-framework
+    npm link
+
+    cd ../../non-ifus/non-ifu-login
+    npm link @norn/non-framework
+    npm link @norn/non-shared-common
+    npm link @norn/non-shared-authentication-management
     npm link
 
     cd ../non-ifu-home
     npm link @norn/non-framework
+    npm link @norn/non-shared-common
     npm link
 
     cd ../non-ifu-organization
     npm link @norn/non-framework
+    npm link @norn/non-shared-common
+    npm link @norn/non-shared-system-administration
     npm link
 
     cd ../non-ifu-ui-showcase
     npm link @norn/non-framework
+    npm link @norn/non-shared-common
     npm link
 
     cd ../../non-themes/non-theme-base
@@ -37,7 +51,9 @@ The package for the NoN Frontend Development
     cd ../../non-deployment-container
     npm link @norn/non-framework
     npm link @norn/non-build-manager
-    npm link @norn/non-ifu-main
+    npm link @norn/non-shared-common
+    npm link @norn/non-shared-authentication-management
+    npm link @norn/non-shared-system-administration
     npm link @norn/non-ifu-home
     npm link @norn/non-ifu-login
     npm link @norn/non-ifu-organization
