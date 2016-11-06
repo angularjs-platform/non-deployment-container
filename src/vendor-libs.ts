@@ -19,7 +19,6 @@ import 'angular-local-storage';
 import 'angular-ui-grid';
 import 'ng-fx';
 import 'perfect-scrollbar';
-import 'mobile-detect';
 import 'lodash';
 
 import 'api-check';

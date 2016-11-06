@@ -5,8 +5,12 @@ import '@norn/non-theme-custom';
 // Core
 import '@norn/non-framework';
 
+// Shared
+import '@norn/non-shared-common';
+import '@norn/non-shared-authentication-management';
+import '@norn/non-shared-system-administration';
+
 // IFU
-import '@norn/non-ifu-main';
 import '@norn/non-ifu-login';
 import '@norn/non-ifu-home';
 import '@norn/non-ifu-organization';
