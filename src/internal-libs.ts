@@ -13,5 +13,7 @@ import '@norn/non-shared-system-administration';
 // IFU
 import '@norn/non-ifu-login';
 import '@norn/non-ifu-home';
-import '@norn/non-ifu-organization';
+import '@norn/non-ifu-system-administration-bankgroup';
+import '@norn/non-ifu-system-administration-bank';
+import '@norn/non-ifu-system-administration-customer';
 import '@norn/non-ifu-ui-showcase';
