@@ -20,5 +20,7 @@ export class LocalizationConfig {
             urlTemplate: '/locale/{part}?lang={lang}'
         });
 
+        // Log missing Translations
+        this.$translateProvider.useMissingTranslationHandlerLog();
     }
 }
