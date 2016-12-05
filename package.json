@@ -57,10 +57,12 @@
     "angular-translate-loader-partial": "2.13.0",
     "angular-translate-storage-cookie": "2.13.0",
     "angular-translate-storage-local": "2.13.0",
+    "angular-translate-handler-log": "2.13.0",
     "angular-local-storage": "0.5.0",
     "angular-loading-bar": "0.9.0",
     "angular-material-sidemenu": "1.0.2",
     "angular-ui-grid": "3.2.9",
+    "angular-breadcrumb": "0.5.0",
     "ng-fx": "2.0.4",
     "perfect-scrollbar": "0.6.12",
     "lodash": "4.16.6",
@@ -76,7 +78,9 @@
     "@norn/non-theme-custom": "0.1.0",
     "@norn/non-ifu-login": "0.1.0",
     "@norn/non-ifu-home": "0.1.0",
-    "@norn/non-ifu-organization": "0.1.0",
+    "@norn/non-ifu-system-administration-bankgroup": "0.1.0",
+    "@norn/non-ifu-system-administration-bank": "0.1.0",
+    "@norn/non-ifu-system-administration-customer": "0.1.0",
     "@norn/non-ifu-ui-showcase": "0.1.0"
   },
   "devDependencies": {
@@ -89,7 +93,9 @@
         "apimodules": [
           "@norn/non-shared-common",
           "@norn/non-shared-authentication-management",
-          "@norn/non-ifu-organization",
+          "@norn/non-ifu-system-administration-bankgroup",
+          "@norn/non-ifu-system-administration-bank",
+          "@norn/non-ifu-system-administration-customer",
           "@norn/non-ifu-login",
           "@norn/non-ifu-ui-showcase"
         ]
