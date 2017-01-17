@@ -22,6 +22,8 @@ import 'angular-breadcrumb';
 import 'ng-fx';
 import 'perfect-scrollbar';
 import 'lodash';
+import 'dragular';
+import 'v-accordion';
 
 import 'api-check';
 import 'angular-formly';
