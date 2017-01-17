@@ -113,7 +113,8 @@
             }
         ],
         "libAlias": {
-            "PerfectScrollbar": "perfect-scrollbar"
+            "PerfectScrollbar": "perfect-scrollbar",
+            "window.jQuery": "jquery"
         }
       }
     }
