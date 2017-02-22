@@ -2,6 +2,7 @@
 The package for the NoN Frontend Development
 
 #Setup
+
     cd non-build-manager
     npm link 
 
