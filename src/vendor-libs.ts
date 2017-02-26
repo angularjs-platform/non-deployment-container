@@ -24,6 +24,7 @@ import 'perfect-scrollbar';
 import 'lodash';
 import 'dragular';
 import 'v-accordion';
+import 'ng-file-upload';
 
 import 'api-check';
 import 'angular-formly';
