@@ -111,8 +111,22 @@
           "@norn/non-ifu-system-administration-bankgroup",
           "@norn/non-ifu-system-administration-bank",
           "@norn/non-ifu-system-administration-customer",
-          "@norn/non-ifu-login",
           "@norn/non-ifu-ui-showcase"
+        ],
+        "localizationConfig": [
+          {
+            "modules": [
+              "@norn/non-framework",
+              "@norn/non-shared-common"
+            ],
+            "url": "/locale/all"
+          },
+          {
+            "modules": [
+              "@norn/non-ifu-login"
+            ],
+            "url": "/locale/login"
+          }
         ]
       },
       "webpackConfig": {
